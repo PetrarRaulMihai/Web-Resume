@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "title":"Web-meals",
+        "tech":["HTML", "CSS", "Tailwind", "JavaScript", "React"],
+        "webUrl":"https://web-meals.vercel.app/",
+        "webGit":"https://github.com/PetrarRaulMihai/Web-meals",
+        "path":"../projects-images/webMeals.png"
+            
+    }    
+
+]
+
+

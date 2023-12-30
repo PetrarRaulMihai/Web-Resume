@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.background {
+  background-image: url("/public/bck.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.filter {
+  color: white;
+  background: rgba(22, 22, 22, 0.46);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(9.5px);
+}
+
+.filterHeader {
+  color: white;
+  background: rgba(4, 4, 4, 0.616);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(9.5px);
+}
+
+/* ANIMATIONS */
+/* Define a class with animation properties */
+@keyframes colorChange {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    color: rgba(254, 254, 254, 0);
+  }
+  50% {
+    color: rgb(110, 110, 110);
+  }
+  75% {
+    color: rgb(75, 75, 75);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
+/* Apply the animation to the paragraph */
+.continuous-color-change {
+  animation: colorChange 4s infinite; /* Change the time (1s) as needed */
+}
+
+.project-bg {
+  /* From https://css.glass */
+  background: rgba(135, 135, 135, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(40px);
+  border: 2px solid gray;
+  -webkit-backdrop-filter: blur(20px);
+}

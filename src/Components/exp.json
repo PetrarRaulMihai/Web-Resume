@@ -1,0 +1,39 @@
+[
+    {
+        "job":"nokia",
+        "tasks":[
+            "Daily tasks solving",
+            "Configuration and integration of network elements",
+            "Remote implementation of network related services",
+            "Performing preventive maintenance and upgrading the necessary software",
+            "Network traffic monitoring and service performance analysis",
+            "Creation / generation of configuration files for all network elements",
+            "Support assistance for sutoation scripts developing",
+            "Assisting other teams responsible for other equipment of the network, towards solving the causes as efficiently as possible",
+            "Ensuring permanently that the network works properly and the traffic isn't afected"
+        ]
+    },
+    {
+        "job":"bosch",
+        "tasks":[
+            "Solving interventions reported by assembly line operators for optical inspection",
+            "Development of optimal solutions together with line engineers",
+            "Providing support to mechanical technicians for solving mechanical defects",
+            "Performs preventive maintenance on the assembly lines",
+            "Reporting the state of the assembly lines at each start and end of the program by drawing up the report",
+            "Providing the necessary support for the integration and installation of new assembly lines",
+            "Revision of the optical inspection process with a view to potential improvements"
+        ]
+    },
+    {
+        "job":"internship",
+        "tasks":[
+            "Assisting the mentor engineer to ensure the quality of the processes",
+            "Involvement in activities in several departments in order to present the approach in the factory",
+            "Analyzing the process on the line where potential bugs were noticed and improving the process",
+            "Analyzing the processes offered by the line engineers on the lines to be installed in order to ensure optimal functionality",
+            "Studying parts declared as scrap to determine the causes"
+        ]
+    }
+
+]
