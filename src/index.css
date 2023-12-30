@@ -39,6 +39,14 @@ code {
   -webkit-backdrop-filter: blur(9.5px);
 }
 
+.filterHeaderMenu {
+  color: white;
+  background: rgba(4, 4, 4, 0.862);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(9.5px);
+}
+
 /* ANIMATIONS */
 /* Define a class with animation properties */
 @keyframes colorChange {

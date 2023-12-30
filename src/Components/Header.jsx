@@ -30,7 +30,7 @@ function Header() {
       <img className="h-14" src={sigWhite} alt="Signature"></img>
       {/* modal */}
       {modalState && (
-        <div className="fixed top-0 left-0 right-0 bg-rose-600 flex flex-col py-3 font-bold text-lg text-center gap-3">
+        <div className="fixed top-0 left-0 right-0 filterHeaderMenu flex flex-col py-3 font-bold text-lg text-center gap-3">
           <button
             onClick={closeModal}
             className="absolute bg-white right-2 top-2 text-black w-8 h-8 rounded-full text-xl flex items-center justify-center font-bold"

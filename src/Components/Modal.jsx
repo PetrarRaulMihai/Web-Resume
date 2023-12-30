@@ -20,9 +20,9 @@ function Modal({ setModalOn, title, imgPath }) {
     // this is the aprent container of everything
     <div className="fixed top-0 bottom-0 z-50 w-full flex justify-center inset-0 overflow-auto backdrop-blur-md">
       {/* this is the modal container */}
-      <div className="absolute bg-emerald-400 w-4/5 top-20 bottom-20 rounded-xl object-cover overflow-auto">
+      <div className="absolute filterHeaderMenu w-4/5 top-20 bottom-20 rounded-xl object-cover overflow-auto">
         {/* this is the container of p */}
-        <div className="aboslute bg-green-400">
+        <div className="aboslute">
           <p
             onClick={closeModal}
             className="absolute right-0 top-0 bg-gray-400 w-8 text-xl font-bold rounded-bl-lg rounded-tr-lg flex justify-center items-center"
